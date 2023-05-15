@@ -11,6 +11,14 @@ public class Examen {
 		
 		System.out.println("Introduce un numero para averiguar si es par o no");
 		numero=ent.nextInt();
+		
+		if(numero%2==0) {
+			System.out.println("El numero " + numero + " es par");
+		}
+		else {
+			System.out.println("El numero " + numero + " es impar");
+		}
+		
 	}
 
 }
